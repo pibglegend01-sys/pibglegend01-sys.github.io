@@ -19,7 +19,7 @@ The current DAVV website serves thousands of students daily but lacks a modern U
 
 ## 🛠️ Built With
 - **Frontend:** HTML5, CSS3, JavaScript
-- **Animations:** Custom CSS and JavaScript (Update this if you used specific libraries like GSAP or Framer Motion)
+- **Animations:** Custom CSS and JavaScript
 - **Deployment:** GitHub Pages
 
 ## 📂 Deployment
