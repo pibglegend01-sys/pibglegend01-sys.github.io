@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devi Ahilya Vishwavidyalaya (DAVV) - Official Website">
+    <title>Devi Ahilya Vishwavidyalaya, Indore</title>
+
+    <!-- Google Fonts: Outfit for modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo" style="gap: 12px; display: flex; align-items: center;">
+                    <img src="assets/logo.png" alt="DAVV Logo" class="logo-img">
+                    <img src="assets/logo_secondary.png" alt="Devi Ahilya Logo" class="logo-img-secondary">
+                    <div class="logo-text">
+                        <h1>DAVV</h1>
+                        <span>Indore</span>
+                    </div>
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="notices.html">Notices</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="primary-btn">Admissions 2026</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-shapes">
+            <!-- Decorative animated shapes will be injected here via JS/CSS -->
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text-wrapper">
+                <span class="hero-subtitle">Welcome to Excellence</span>
+                <h1 class="hero-title">Devi Ahilya Vishwavidyalaya</h1>
+                <p class="hero-description">Empowering minds, fostering innovation, and shaping the future through
+                    world-class education and holistic development.</p>
+                <div class="hero-cta">
+                    <button class="primary-btn hero-btn">Explore Programs</button>
+                    <button class="secondary-btn hero-btn">Virtual Tour</button>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="glass-card main-hero-card">
+                    <!-- Placeholder for campus image -->
+                    <div class="hero-image-placeholder">
+                        <img src="assets/hero-bg.jpg" alt="DAVV Campus" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        🏆 NAAC A+ Accredited
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section-padding">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <h3 class="stat-number">300+</h3>
+                <p class="stat-label">Affiliated Colleges</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">39+</h3>
+                <p class="stat-label">University Departments</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">2L+</h3>
+                <p class="stat-label">Active Students</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">1964</h3>
+                <p class="stat-label">Established</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container about-grid">
+            <div class="about-image-wrapper">
+                <div class="glass-card about-card">
+                    <div class="about-image-placeholder"></div>
+                    <div class="experience-badge">
+                        <span>60+</span>
+                        <p>Years of<br>Excellence</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">A Legacy of Learning</h2>
+                <div class="title-underline"></div>
+                <p class="section-desc">Devi Ahilya Vishwavidyalaya, formerly University of Indore, is a premier autonomous institution shaping the future of education since 1964. With a focus on inclusive and quality learning, DAVV stands as a beacon of academic brilliance.</p>
+                <p class="section-desc">Our diverse programs, state-of-the-art infrastructure, and dedicated faculty ensure that our students are equipped to lead, innovate, and contribute meaningfully to society.</p>
+                <ul class="feature-list">
+                    <li><i class="icon">✨</i> NAAC Accredited A+ Grade</li>
+                    <li><i class="icon">📚</i> State-of-the-art Central Library</li>
+                    <li><i class="icon">🔬</i> Advanced Research Facilities</li>
+                    <li><i class="icon">🌍</i> Global Alumni Network</li>
+                </ul>
+                <button class="primary-btn mt-4">Discover More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Programs -->
+    <section class="programs section-padding" id="programs" style="background-color: var(--clr-surface);">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Academic Programs</h2>
+                <div class="title-underline mx-auto"></div>
+                <p class="section-desc mx-auto" style="max-width: 650px;">Explore our comprehensive range of undergraduate and postgraduate programs designed to foster excellence, leadership, and innovation.</p>
+            </div>
+            
+            <div class="programs-lists-wrapper mt-5">
+                <!-- Undergraduate List -->
+                <div class="program-category">
+                    <h3 class="category-title">Undergraduate (Bachelor)</h3>
+                    <ul class="program-list">
+                        <li class="program-item">B.Tech (Computer Science, IT, Electronics)</li>
+                        <li class="program-item">B.A. (Hons) - Economics, Psychology, History</li>
+                        <li class="program-item">B.Com (Hons) - Accounting, Taxation, Commerce</li>
+                        <li class="program-item">B.Sc. (Hons) - Physics, Chemistry, Mathematics</li>
+                        <li class="program-item">B.C.A. (Bachelor of Computer Applications)</li>
+                        <li class="program-item">B.B.A. (Hospitality, Foreign Trade, Hospital Admin)</li>
+                        <li class="program-item">B.Pharm (Bachelor of Pharmacy)</li>
+                        <li class="program-item">B.Ed. (Bachelor of Education)</li>
+                    </ul>
+                </div>
+
+                <!-- Postgraduate List -->
+                <div class="program-category">
+                    <h3 class="category-title">Postgraduate (Master)</h3>
+                    <ul class="program-list">
+                        <li class="program-item">M.Tech / M.E. - Advanced Engineering specializations</li>
+                        <li class="program-item">M.B.A. (FA, Marketing, HR, IT, e-Commerce)</li>
+                        <li class="program-item">M.C.A. (Master of Computer Applications)</li>
+                        <li class="program-item">M.A. - Humanities, Journalism & Social Sciences</li>
+                        <li class="program-item">M.Com - Advanced Commerce specializations</li>
+                        <li class="program-item">M.Sc. - Physical, Biological & Data Sciences</li>
+                        <li class="program-item">M.Pharm (Pharmaceutical Sciences)</li>
+                        <li class="program-item">LL.M. (Master of Laws)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notices & Updates Section -->
+    <section class="notices section-padding" id="notifications">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Latest Updates</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            <div class="notices-grid">
+                <div class="notice-card">
+                    <span class="notice-date">25 Feb, 2026</span>
+                    <span class="notice-tag tag-exam">Examination</span>
+                    <h3 class="notice-title">Postgraduate Semester Results Declared</h3>
+                    <a href="#" class="notice-link">Read More →</a>
+                </div>
+                <div class="notice-card">
+                    <span class="notice-date">20 Feb, 2026</span>
+                    <span class="notice-tag tag-admission">Admission</span>
+                    <h3 class="notice-title">CUET 2026 PG Registration Details Available</h3>
+                    <a href="#" class="notice-link">Read More →</a>
+                </div>
+                <div class="notice-card">
+                    <span class="notice-date">15 Feb, 2026</span>
+                    <span class="notice-tag tag-event">Event</span>
+                    <h3 class="notice-title">Annual Tech Fest 'Pragya' Scheduled for March</h3>
+                    <a href="#" class="notice-link">Read More →</a>
+                </div>
+                <div class="notice-card">
+                    <span class="notice-date">10 Feb, 2026</span>
+                    <span class="notice-tag tag-general">General</span>
+                    <h3 class="notice-title">Revised Academic Calendar Published for Even Semester</h3>
+                    <a href="#" class="notice-link">Read More →</a>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button class="secondary-btn">View All Notices</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Links Section -->
+    <section class="important-links section-padding">
+        <div class="container overflow-hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">Important Links</h2>
+                <div class="title-underline mx-auto"></div>
+            </div>
+            
+            <div class="marquee-container" id="marquee-container">
+                <div class="marquee-track" id="marquee-track">
+                    <a href="https://www.aicte-india.org/" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=AICTE" alt="AICTE">
+                    </a>
+                    <a href="http://www.mphighereducation.nic.in/" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=MP+Higher+Ed" alt="MP Higher Education">
+                    </a>
+                    <a href="https://swayam.gov.in/" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=Swayam" alt="Swayam">
+                    </a>
+                    <a href="http://www.mptechedu.org/" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=MP+Tech+Edu" alt="MP Tech Edu">
+                    </a>
+                    <a href="http://aishe.nic.in/aishe/home" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=AISHE" alt="AISHE">
+                    </a>
+                    <a href="https://www.nirfindia.org/Home" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=NIRF" alt="NIRF">
+                    </a>
+                    <a href="http://mhrd.gov.in/" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=MoE" alt="MoE (MHRD)">
+                    </a>
+                    <a href="http://www.mponline.gov.in/portal/index.aspx?langid=en-US" target="_blank" class="marquee-item glass-card">
+                        <img src="https://placehold.co/150x80/FBECA7/A9851F?text=MPOnline" alt="MPOnline">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="DAVV Logo" class="logo-img">
+                    <img src="assets/logo_secondary.png" alt="Devi Ahilya Logo" class="logo-img-secondary">
+                    <div class="logo-text">
+                        <h1>DAVV</h1>
+                        <span>Indore</span>
+                    </div>
+                </div>
+                <p class="footer-text mt-3">Empowering students through innovative education and global perspective.</p>
+                <div class="social-links mt-3">
+                    <a href="https://www.instagram.com/123stickmen/?hl=en" target="_blank" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Academics</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Undergraduate</a></li>
+                    <li><a href="#">Postgraduate</a></li>
+                    <li><a href="#">Doctoral Programs</a></li>
+                    <li><a href="#">Distance Learning</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Examination Results</a></li>
+                    <li><a href="#">Webmail Login</a></li>
+                    <li><a href="#">Tenders & Notices</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Contact</h4>
+                <address class="footer-text">
+                    Nalanda Campus,<br>
+                    R. N. T. Marg, Indore (M.P.),<br>
+                    India Pin - 452001
+                </address>
+                <p class="footer-text mt-2"><strong>Phone:</strong> +91-731-2527532</p>
+                <p class="footer-text"><strong>Email:</strong> registrar.davv@mp.gov.in</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Devi Ahilya Vishwavidyalaya, Indore. All Rights Reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
