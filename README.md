@@ -11,10 +11,6 @@ The current DAVV website serves thousands of students daily but lacks a modern U
 - **Fluid Animations:** Implementing smooth transitions to make navigation feel intuitive.
 - **Improved Accessibility:** Faster access to student services like results, time tables, and the UTD portal.
 
-## 📸 Preview
-*(Replace the link below with a screenshot or GIF of your actual website)*
-![DAVV Redesign Preview](https://via.placeholder.com/800x400?text=Insert+Your+Website+Screenshot+Here)
-
 ## 🚀 Key Features
 - **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
 - **Modern UI Components:** Clean cards, refined headers, and better whitespace management.
